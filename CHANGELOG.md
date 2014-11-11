@@ -1,3 +1,7 @@
-# 0.1.0
+NETWORKING-BASIC CHANGELOG
+==========================
 
-Initial release of networking-basic-cookbook
+0.1.0
+-----
+- Initial release.  Supports Ubuntu, Debian, and RedHat flavored OSes.
+

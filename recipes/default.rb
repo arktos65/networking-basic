@@ -1,8 +1,13 @@
 #
-# Cookbook Name:: networking-basic-cookbook
+# Cookbook Name:: networking_basic
 # Recipe:: default
 #
-# Copyright (C) 2014 YOUR_NAME
 #
-# All rights reserved - Do Not Redistribute
-#
+
+if node['platform_family'] == 'debian'
+  include_recipe "apt::default"
+end
+
+node['networking']['packages'].each do |netpkg|
+  package netpkg
+end
