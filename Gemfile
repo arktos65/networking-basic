@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
-gem 'chefspec'
 gem 'docker'
 gem 'foodcritic'
 gem 'kitchen-docker'
