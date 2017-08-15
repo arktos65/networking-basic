@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
+gem 'chefspec'
 gem 'docker'
 gem 'foodcritic'
 gem 'kitchen-docker'
@@ -8,7 +9,6 @@ gem 'public_suffix', '= 2.0.4'
 gem 'rake'
 gem 'rspec'
 gem 'rubocop'
-gem 'chefspec'
 gem 'thor', '< 0.19.3'
 
 group :travis do
